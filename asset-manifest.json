@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ActiveElectric/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/ActiveElectric/static/js/main.414526f7.chunk.js",
+    "main.js.map": "/ActiveElectric/static/js/main.414526f7.chunk.js.map",
+    "runtime-main.js": "/ActiveElectric/static/js/runtime-main.eb8e2559.js",
+    "runtime-main.js.map": "/ActiveElectric/static/js/runtime-main.eb8e2559.js.map",
+    "static/js/2.b2370763.chunk.js": "/ActiveElectric/static/js/2.b2370763.chunk.js",
+    "static/js/2.b2370763.chunk.js.map": "/ActiveElectric/static/js/2.b2370763.chunk.js.map",
+    "index.html": "/ActiveElectric/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/ActiveElectric/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.b2370763.chunk.js.LICENSE.txt": "/ActiveElectric/static/js/2.b2370763.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb8e2559.js",
+    "static/js/2.b2370763.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.414526f7.chunk.js"
+  ]
+}
