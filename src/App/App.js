@@ -17,11 +17,12 @@ export default function App() {
 	};
 
 	return (
-			<main className='app'>
-				<nav className='appNav'>{renderNavRoutes()}</nav>
-				<div>
-					<p>test</p>
-				</div>
-			</main>
+		<main className='app'>
+			<nav className='appNav'>{renderNavRoutes()}</nav>
+			<div>
+				<Link to='/contact'>contact</Link>
+				<p>test</p>
+			</div>
+		</main>
 	);
 }
