@@ -1,6 +1,6 @@
 import React from "react";
 
-function OurStory() {
+export default function OurStory() {
 	return (
 		<main className='ourStory'>
 			<div>
@@ -9,5 +9,3 @@ function OurStory() {
 		</main>
 	);
 }
-
-export default OurStory;
