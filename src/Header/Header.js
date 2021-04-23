@@ -8,7 +8,7 @@ export default function Header(props) {
 		<main className='header'>
 			<header>
 				<img src={logo} alt='Company logo AE'></img>
-				<h1>Active Electric Co.</h1>
+				<h1 id='title'>Active Electric Co.</h1>
 			</header>
 			<div className='headImgContainer'>
 				<img
@@ -18,7 +18,10 @@ export default function Header(props) {
 				></img>
 			</div>
 			<div>
-				<p> Some Saying... </p>
+				<p id='headerSaying'>
+					We work as partners with our clients to accomplish their needs through
+					our abilities.
+				</p>
 			</div>
 		</main>
 	);
