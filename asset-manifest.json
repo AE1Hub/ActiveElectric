@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ActiveElectric/static/css/main.80f9b62d.chunk.css",
-    "main.js": "/ActiveElectric/static/js/main.a5a14be9.chunk.js",
-    "main.js.map": "/ActiveElectric/static/js/main.a5a14be9.chunk.js.map",
+    "main.js": "/ActiveElectric/static/js/main.342dfb9d.chunk.js",
+    "main.js.map": "/ActiveElectric/static/js/main.342dfb9d.chunk.js.map",
     "runtime-main.js": "/ActiveElectric/static/js/runtime-main.eb8e2559.js",
     "runtime-main.js.map": "/ActiveElectric/static/js/runtime-main.eb8e2559.js.map",
     "static/js/2.c7db8bc0.chunk.js": "/ActiveElectric/static/js/2.c7db8bc0.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.eb8e2559.js",
     "static/js/2.c7db8bc0.chunk.js",
     "static/css/main.80f9b62d.chunk.css",
-    "static/js/main.a5a14be9.chunk.js"
+    "static/js/main.342dfb9d.chunk.js"
   ]
 }
