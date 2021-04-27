@@ -13,7 +13,7 @@ export default function Home() {
 				<img
 					id='homeImg'
 					src={Main_Top_Pic}
-					alt='Beutiful employee lounge and kitchen'
+					alt='Employee lounge and kitchen'
 				></img>
 			</div>
 			<div>

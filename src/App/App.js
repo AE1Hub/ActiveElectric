@@ -11,8 +11,8 @@ import Footer from "../Footer/Footer";
 export default function App() {
 	return (
 		<main className='app'>
-			<Header  />
-			<Switch>
+			<Header />
+			<Switch basename='/' component={Home}>
 				<Route exact path='/' component={Home} />
 				<Route path='/contact' component={Contact} />
 				<Route path='/ourStory' component={OurStory} />
