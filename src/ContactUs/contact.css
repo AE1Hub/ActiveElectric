@@ -1,0 +1,28 @@
+form{
+     margin: 10px;
+}
+
+.contact h1 {
+     text-align: center;
+}
+
+.contact h3, .mail p{
+     margin: 10px;
+}
+
+form{
+     margin-bottom: 30px;
+}
+
+form div{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin: 5px 0px;
+}
+
+#messageBox{
+     height: 100px;
+     width: 96%;
+}
+

@@ -1,15 +1,68 @@
 import React from "react";
+import "./Contact.css";
 import ImageButton from "../ImageButton/ImageButton";
 import Our_Story from "../Images/Our_Story.png";
 import Services from "../Images/Services.png";
 import Main_Top_Pic from "../Images/Main_Top_Pic.png";
 
+// https://mailtrap.io/blog/react-send-email/
+// review npm https://www.npmjs.com/package/emailjs
+
 export default function Contact() {
 	return (
 		<main className='contact'>
-			<div>
-				<p> test contact</p>
+
+			<h1>Contact Us</h1>
+
+			<h3>Email: </h3>
+			<form>
+				<div>
+					<div>
+						<label>Name:</label>
+					</div>
+					<div>
+						<input type='text'></input>
+					</div>
+				</div>
+				<div>
+					<div>
+						<label>Email:</label>
+					</div>
+					<div>
+						<input type='email'></input>
+					</div>
+				</div>
+
+				<div>
+					<div>
+						<label>Phone Number:</label>
+					</div>
+					<div>
+						<input type='tel'></input>
+					</div>
+				</div>
+
+				<div>
+					<div>
+						<label>Message:</label>
+					</div>
+					<div>
+						<input id='messageBox' type='text'></input>
+					</div>
+				</div>
+				<button>Send Now</button>
+			</form>
+
+			<div className='mail'>
+				<h3>Mail: </h3>
+				<p>Active Electric Co. </p>
+				<p>
+					21419 S. 154th St. <br /> Gilbert, AZ 85298
+				</p>
+				<p>Tel 602.549.5052 </p>
+				<p>ROC 328575 </p>
 			</div>
+
 			<ImageButton
 				location={"Home"}
 				navImage={Main_Top_Pic}

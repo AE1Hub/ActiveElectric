@@ -1,14 +1,27 @@
 import React from "react";
-import Header from "../Header/Header";
+import "./Home.css";
 import ImageButton from "../ImageButton/ImageButton";
 import Contact_Us from "../Images/Contact_Us.png";
 import Our_Story from "../Images/Our_Story.png";
 import Services from "../Images/Services.png";
+import Main_Top_Pic from "../Images/Main_Top_Pic.png";
 
 export default function Home() {
 	return (
 		<main className='home'>
-			<Header />
+			<div className='headImgContainer'>
+				<img
+					id='homeImg'
+					src={Main_Top_Pic}
+					alt='Beutiful employee lounge and kitchen'
+				></img>
+			</div>
+			<div>
+				<p id='headerSaying'>
+					We work as partners with our clients to accomplish their needs through
+					our abilities.
+				</p>
+			</div>
 
 			<ImageButton
 				location={"Contact Us"}

@@ -3,16 +3,14 @@ header{
      height: 20vh;
 }
 
-#title{
-    font-family: 'Roboto', sans-serif;
+#logo{
+    height: 110px;
 }
 
-#headerImg{
-    margin-top: 10px;
-    width: 100%;
+#companyName{
+    display: flex;
+    align-self: center;
+    width: 180px;
+    height: 23px;
 }
 
-#headerSaying{
-    margin: 20px 5px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
