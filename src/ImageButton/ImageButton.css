@@ -33,3 +33,30 @@ a{
      width: 100%;
      opacity: .4;
 }
+
+@media only screen and (min-width: 400px) {
+  /****************\\\\\\\\\ Large Phone /////////****************/
+
+  .imageContainer {
+      width: 300px;
+  }
+
+  .navDiv{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@media only screen and (min-width: 650px) {
+  /****************\\\\\\\\\ Tablet /////////****************/
+
+  .navDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+}
+

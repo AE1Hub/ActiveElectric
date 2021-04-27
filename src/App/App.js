@@ -12,7 +12,7 @@ export default function App() {
 	return (
 		<main className='app'>
 			<Header />
-			<Switch basename='/' component={Home}>
+			<Switch>
 				<Route exact path='/' component={Home} />
 				<Route path='/contact' component={Contact} />
 				<Route path='/ourStory' component={OurStory} />

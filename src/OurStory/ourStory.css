@@ -5,3 +5,17 @@
 .ourStory h1, .ourStory h2{
      text-align: center;
 }
+
+@media only screen and (min-width: 1000px) {
+
+.story p, .mission p{
+    width: 980px;
+}
+
+.story, .mission{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+}

@@ -8,8 +8,8 @@ import Main_Top_Pic from "../Images/Main_Top_Pic.png";
 export default function OurStory() {
 	return (
 		<main className='ourStory'>
+			<h1> Our Story </h1>
 			<div className='story'>
-				<h1> Our Story </h1>
 				<p>
 					Active Electric Co. was formed in 2019 with a drive for customer
 					satisfaction and building relationships through quality workmanship
@@ -57,28 +57,31 @@ export default function OurStory() {
 					customer satisfaction driven initiative.
 				</p>
 			</div>
-			<ImageButton
-				location={"Home"}
-				navImage={Main_Top_Pic}
-				navLink={"/"}
-				descript={"Beutiful employee lounge and kitchen"}
-			/>
 
-			<ImageButton
-				location={"Contact Us"}
-				navImage={Contact_Us}
-				navLink={"/contact"}
-				descript={"Nicely Bent Conduit"}
-			/>
+			<div className='navDiv'>
+				<ImageButton
+					location={"Home"}
+					navImage={Main_Top_Pic}
+					navLink={"/"}
+					descript={"Beutiful employee lounge and kitchen"}
+				/>
 
-			<ImageButton
-				location={"Services"}
-				navImage={Services}
-				navLink={"/services"}
-				descript={
-					"Control center with perfectly bent conduit and nicely mounted junctions"
-				}
-			/>
+				<ImageButton
+					location={"Contact Us"}
+					navImage={Contact_Us}
+					navLink={"/contact"}
+					descript={"Nicely Bent Conduit"}
+				/>
+
+				<ImageButton
+					location={"Services"}
+					navImage={Services}
+					navLink={"/services"}
+					descript={
+						"Control center with perfectly bent conduit and nicely mounted junctions"
+					}
+				/>
+			</div>
 		</main>
 	);
 }

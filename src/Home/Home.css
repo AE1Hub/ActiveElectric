@@ -1,10 +1,27 @@
 #homeImg{
     margin-top: 10px;
     width: 100%;
+    box-shadow: 0px 3px 10px -6px;
 }
 
 #headerSaying{
     margin: 20px 5px;
      font-size: 20px;
     font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 650px) {
+  /****************\\\\\\\\\ Tablet /////////****************/
+
+  #homeImg{
+    width: 95%;
+}
+
+.headImgContainer{
+    display: flex;
+    justify-content: center;
+}
+
 }

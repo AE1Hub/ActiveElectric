@@ -22,27 +22,28 @@ export default function Home() {
 					our abilities.
 				</p>
 			</div>
-
-			<ImageButton
-				location={"Contact Us"}
-				navImage={Contact_Us}
-				navLink={"/contact"}
-				descript={"Nicely Bent Conduit"}
-			/>
-			<ImageButton
-				location={"Our Story"}
-				navImage={Our_Story}
-				navLink={"/ourStory"}
-				descript={"Stylish warehouse lighting in locker room"}
-			/>
-			<ImageButton
-				location={"Services"}
-				navImage={Services}
-				navLink={"/services"}
-				descript={
-					"Control center with perfectly bent conduit and nicely mounted junctions"
-				}
-			/>
+			<div className='navDiv'>
+				<ImageButton
+					location={"Contact Us"}
+					navImage={Contact_Us}
+					navLink={"/contact"}
+					descript={"Nicely Bent Conduit"}
+				/>
+				<ImageButton
+					location={"Our Story"}
+					navImage={Our_Story}
+					navLink={"/ourStory"}
+					descript={"Stylish warehouse lighting in locker room"}
+				/>
+				<ImageButton
+					location={"Services"}
+					navImage={Services}
+					navLink={"/services"}
+					descript={
+						"Control center with perfectly bent conduit and nicely mounted junctions"
+					}
+				/>
+			</div>
 		</main>
 	);
 }

@@ -5,3 +5,21 @@
 #servicesText{
          margin: 10px;
 }
+
+@media only screen and (min-width: 1000px) {
+
+     .textContainer{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+
+     #servicesText{
+          width: 980px;
+     }
+
+     #points{
+          width: 980px;
+     }
+
+}
