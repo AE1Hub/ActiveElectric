@@ -11,7 +11,7 @@ export default function ImageButton(props) {
 				<p>{location}</p>
 			</div>
 			<div>
-				<Link to={navLink}>
+				<Link to={navLink} onClick={window.scrollTo(0, 0)}>
 					<img src={navImage} id='imageButton' alt={descript}></img>
 				</Link>
 			</div>

@@ -18,8 +18,8 @@ export default function Home() {
 			</div>
 			<div>
 				<p id='headerSaying'>
-					We work as partners with our clients to accomplish their needs through
-					our abilities.
+					"We work as partners with our clients to accomplish their needs
+					through our abilities."
 				</p>
 			</div>
 			<div className='navDiv'>

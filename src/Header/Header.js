@@ -7,10 +7,12 @@ import logo_words from "../Images/logo_words.png";
 export default function Header() {
 	return (
 		<header className='header'>
-				<Link to='/'>
+			<Link to='/'>
+				<div className='logoContainer'>
 					<img id='logo' src={logo} alt='Company logo AE'></img>
-				</Link>
-				<img id='companyName' src={logo_words} alt='Company Name'></img>
+					<img id='companyName' src={logo_words} alt='Company Name'></img>
+				</div>
+			</Link>
 		</header>
 	);
 }
