@@ -1,18 +1,18 @@
 header{
-     display: flex;
-    padding: 5px;
+display: flex;
+padding-bottom: 10px;
 }
 
 #logo{
-    height: 150px;
-    padding-bottom: 12px;
+height: 150px;
+padding: 10px;
 }
 
 #companyName{
-    display: flex;
-    align-self: center;
-    width: 280px;
-    height: 23px;
-    padding: 10px;
+display: flex;
+align-self: center;
+width: 350px;
+height: 32px;
+padding: 10px;
 }
 
