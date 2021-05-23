@@ -41,11 +41,11 @@ export default function OurStory() {
 					construction company is narrowed down to three things:
 				</p>
 
-				<p>A) Lack of communication.</p>
+				<p id='missionBulletA'>A) Lack of communication.</p>
 
-				<p>B) Quality of work.</p>
+				<p id='missionBulletB'>B) Quality of work.</p>
 
-				<p>
+				<p id='missionBulletC'>
 					C) Not doing what they say they are going to do, in writing or verbal.
 				</p>
 
