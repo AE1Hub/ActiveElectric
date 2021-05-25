@@ -38,3 +38,17 @@ form div{
           width: 600px;
      }
 }
+
+@media only screen and (min-width: 900px) {
+
+     .subContact{
+          display: flex;
+          align-items: flex-start;
+          flex-direction: row;
+          justify-content: center;
+     }
+
+     .mail{
+          padding: 0px 50px 50px 50px;
+     }
+}
