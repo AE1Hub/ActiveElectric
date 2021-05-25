@@ -21,7 +21,7 @@ export default function Contact() {
 								<label>Name:</label>
 							</div>
 							<div>
-								<input type='text'></input>
+								<input type='text' maxLength='80'></input>
 							</div>
 						</div>
 						<div>
@@ -29,7 +29,7 @@ export default function Contact() {
 								<label>Email:</label>
 							</div>
 							<div>
-								<input type='email'></input>
+								<input type='email' maxLength='80'></input>
 							</div>
 						</div>
 
@@ -38,7 +38,7 @@ export default function Contact() {
 								<label>Phone Number:</label>
 							</div>
 							<div>
-								<input type='tel'></input>
+								<input type='tel' maxLength='12'></input>
 							</div>
 						</div>
 
@@ -47,7 +47,12 @@ export default function Contact() {
 								<label>Message:</label>
 							</div>
 							<div>
-								<input id='messageBox' type='text'></input>
+								<textarea
+									id='messageBox'
+									type='text'
+									wrap='soft'
+									maxLength='500'
+								></textarea>
 							</div>
 						</div>
 						<button>Send Now</button>
