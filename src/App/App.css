@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Mate+SC&display=swap');
 
 .app{
   height: 100vh;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Crimson Text', serif;
+}
+
+p{
+  font-size: 17px;
+}
+
+label{
+  font-size: 17px;
 }
