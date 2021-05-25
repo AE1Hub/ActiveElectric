@@ -2,6 +2,28 @@
      text-align: center;
 }
 
+.services h1:before {
+content: "";
+    display: block;
+    width: 162px;
+    height: 1px;
+    background: #000;
+    left: 470px;
+    top: 37%;
+    position: absolute;
+}
+
+.services h1:after {
+    content: "";
+    display: block;
+    width: 162px;
+    height: 1px;
+    background: #000;
+    right: 470px;
+    top: 37%;
+    position: absolute;
+}
+
 #servicesText{
          margin: 10px;
 }

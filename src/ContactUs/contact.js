@@ -11,7 +11,7 @@ import Main_Top_Pic from "../Images/Main_Top_Pic.png";
 export default function Contact() {
 	return (
 		<main className='contact'>
-			<h1>Contact Us</h1>
+			<h1 id='ourStoryH1'>Contact Us</h1>
 			<div className='subContact'>
 				<div>
 					<h3>Email: </h3>

@@ -6,6 +6,28 @@ form{
      text-align: center;
 }
 
+.contact h1:before {
+content: "";
+    display: block;
+    width: 162px;
+    height: 1px;
+    background: #000;
+    left: 465px;
+    top: 37%;
+    position: absolute;
+}
+
+.contact h1:after {
+    content: "";
+    display: block;
+    width: 162px;
+    height: 1px;
+    background: #000;
+    right: 465px;
+    top: 37%;
+    position: absolute;
+}
+
 .contact h3, .mail p{
      margin: 10px;
 }
