@@ -13,3 +13,14 @@ p{
 label{
   font-size: 17px;
 }
+
+.AfterServiceContainer img{
+  width:500px;
+  height: 300px;
+  margin: 20px;
+  box-shadow: 0px 3px 10px -6px;
+}
+
+.AfterServiceContainer {
+text-align: center;
+}
