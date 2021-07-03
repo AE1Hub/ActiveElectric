@@ -5,7 +5,6 @@ import config from "../config.js";
 
 export default function Contact() {
 	let [alertMessage, setAlertMessage] = useState("");
-
 	/**
 	 * using email.js
 	 * https://www.emailjs.com/docs/examples/reactjs/
