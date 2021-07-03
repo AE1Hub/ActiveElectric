@@ -6,9 +6,9 @@ export default function OurStory() {
 		<div className='ourStory'>
 			<div className='story'>
 				<p id='thePromise'>
-					Our promise to you is to always build with quality, focus your
-					satisfaction, provide thoughtful communication, and to keep our
-					promises by doing what we say we are going to do.
+					Our promise to you is to always deliver quality, focus on your
+					satisfaction, provide thoughtful communication, and to do what we say
+					we are going to do.
 				</p>
 
 				<p>
@@ -23,15 +23,18 @@ export default function OurStory() {
 					Our services include Residential, Commercial, and Industrial
 					Electrical installations and services. Our wide range of training and
 					knowledge allows us to complete many different size projects and
-					tasks. We work as partners with our clients to accomplish their needs
-					through our abilities.
+					tasks. We assist you to accomplish your needs through our abilities.
 				</p>
 				<p>
 					Contact us and lets discuss your project… With personal relationships
 					with our vendors and a complete understanding of our industry, we will
 					be able to provide very competitive pricing that will help us stand
-					out against our competitors. Competitors who often times lose site of
-					the fact in the electrical field, your safety is often in our hands.
+					out against our competitors.
+				</p>
+
+				<p id='storyPhone'>
+					Call us now at (602) 549-5052 now to schedule a qoute and discuss your
+					next project.
 				</p>
 			</div>
 		</div>

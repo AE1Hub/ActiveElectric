@@ -14,7 +14,7 @@ export default function Home() {
 					alt='Employee lounge and kitchen'
 				></img>
 			</div>
-			<div>
+			<div className='blockQ'>
 				<blockquote className='mainQoute'>
 					<h2>We Assist You</h2>
 					<p id='qouteHead'>to accomplish your needs through our abilities</p>

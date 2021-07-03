@@ -1,6 +1,11 @@
 header{
 display: flex;
+justify-content: space-between;
 padding-bottom: 10px;
+}
+
+.phoneHeader{
+display: none
 }
 
 #logo{
@@ -10,8 +15,8 @@ padding: 10px;
 
 #companyName{
 display: flex;
-align-self: center;
-width: 350px;
+align-self: flex-end;
+width: 300px;
 height: 29px;
 padding: 10px;
 }
@@ -21,6 +26,31 @@ padding: 10px;
 
 header{
     padding-left: 10px;
+}
+
+#phonePF{
+    padding-right: 10px;
+    font-size: 35px;
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+.phoneHeader{
+    display: flex;
+    align-items: flex-end;
+    padding-right: 10px;
+}
+}
+
+@media only screen and (min-width: 800px) {
+
+.logoContainer{
+  display: flex;
+  align-items: flex-start;
+}
+
+#companyName{
+width: 350px;
 }
 
 }

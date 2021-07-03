@@ -6,15 +6,17 @@
      text-align: center;
 }
 
-
-
-@media only screen and (min-width: 1000px) {
-
 #thePromise{
 text-align: center;
 font-size: 25px;
 padding-bottom: 40px;
-}     
+}  
+
+#storyPhone{
+     font-size: 28px;
+}
+
+@media only screen and (min-width: 1000px) {   
 
 .story p{
     width: 980px;

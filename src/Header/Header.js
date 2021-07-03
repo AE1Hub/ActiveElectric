@@ -13,6 +13,9 @@ export default function Header() {
 					<img id='companyName' src={logo_words} alt='Company Name'></img>
 				</div>
 			</Link>
+			<div className='phoneHeader'>
+				<p id='phonePF'>Call (602)549-5052</p>
+			</div>
 		</header>
 	);
 }
