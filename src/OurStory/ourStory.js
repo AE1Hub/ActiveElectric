@@ -3,9 +3,14 @@ import "./OurStory.css";
 
 export default function OurStory() {
 	return (
-		<main className='ourStory'>
-			<h1> Our Story </h1>
+		<div className='ourStory'>
 			<div className='story'>
+				<p id='thePromise'>
+					Our promise to you is to always build with quality, focus your
+					satisfaction, provide thoughtful communication, and to keep our
+					promises by doing what we say we are going to do.
+				</p>
+
 				<p>
 					Active Electric Co. was formed in 2019 with a drive for customer
 					satisfaction and building relationships through quality workmanship
@@ -29,30 +34,6 @@ export default function OurStory() {
 					the fact in the electrical field, your safety is often in our hands.
 				</p>
 			</div>
-
-			<div className='mission'>
-				<h2>Our Mission</h2>
-				<p>
-					The most common complaints you hear when someone talks about any
-					construction company is narrowed down to three things:
-				</p>
-
-				<p id='missionBulletA'>A) Lack of communication.</p>
-
-				<p id='missionBulletB'>B) Quality of work.</p>
-
-				<p id='missionBulletC'>
-					C) Not doing what they say they are going to do, in writing or verbal.
-				</p>
-
-				<p>
-					Our company is based on honesty and integrity. With those two words,
-					we aim to change the way people view the construction industry. We are
-					set out to bring integrity back to the electrical construction trade
-					by highlighting the three negatives listed above and focus on a
-					customer satisfaction driven initiative.
-				</p>
-			</div>
-		</main>
+		</div>
 	);
 }

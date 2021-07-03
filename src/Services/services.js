@@ -3,8 +3,7 @@ import "./Services.css";
 
 export default function Services() {
 	return (
-		<main className='services'>
-			<h1> Services </h1>
+		<div className='services'>
 			<div className='textContainer'>
 				<p id='servicesText'>
 					We offer a wide range of services in Residential, Commercial, and
@@ -23,6 +22,8 @@ export default function Services() {
 						<li>Energy Management</li>
 						<li>Building Facility Maintenance</li>
 						<li>Repairs</li>
+					</ul>
+					<ul>
 						<li>Testing</li>
 						<li>Lighting</li>
 						<li>Unground Utilities</li>
@@ -34,6 +35,6 @@ export default function Services() {
 					</ul>
 				</div>
 			</div>
-		</main>
+		</div>
 	);
 }

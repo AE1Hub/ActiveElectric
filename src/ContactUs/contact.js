@@ -6,11 +6,10 @@ import "./Contact.css";
 
 export default function Contact() {
 	return (
-		<main className='contact'>
-			<h1>Contact Us</h1>
+		<div className='contact'>
 			<div className='subContact'>
 				<div>
-					<h2>Email: </h2>
+					<h2>Tell us about your project! </h2>
 					<form>
 						<div>
 							<div>
@@ -56,7 +55,6 @@ export default function Contact() {
 				</div>
 
 				<div className='mail'>
-					<h2>Mail: </h2>
 					<p>Active Electric Co. </p>
 					<p>
 						21419 S. 154th St. <br /> Gilbert, AZ 85298
@@ -65,6 +63,6 @@ export default function Contact() {
 					<p>ROC 328575 </p>
 				</div>
 			</div>
-		</main>
+		</div>
 	);
 }

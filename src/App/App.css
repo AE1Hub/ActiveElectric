@@ -2,25 +2,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Mate+SC&display=swap');
 
 .app{
-  height: 100vh;
   font-family: 'Crimson Text', serif;
+  padding: 10px;
 }
 
 p{
-  font-size: 17px;
+  font-size: 19px;
 }
 
 label{
   font-size: 17px;
 }
 
-.AfterServiceContainer img{
-  width:500px;
-  height: 300px;
-  margin: 20px;
-  box-shadow: 0px 3px 10px -6px;
+.afterServiceContainer img, .beforeServiceContainer img{
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    box-shadow: 0px 3px 10px -6px;
 }
 
-.AfterServiceContainer {
-text-align: center;
+.afterServiceContainer, .beforeServiceContainer {
+    justify-content: center;
+    text-align: center;
+}
+
+@media only screen and (min-width: 650px) {
+.afterServiceContainer img, .beforeServiceContainer img{
+  width:330px;
+  height: 250px;
+}
+}
+
+@media only screen and (min-width: 800px) {
+.afterServiceContainer, .beforeServiceContainer {
+display: flex;
+justify-content: center;
+}
 }

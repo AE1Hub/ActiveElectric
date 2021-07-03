@@ -1,9 +1,23 @@
-.services h1{
-     text-align: center;
+li{
+     font-size: 18px;
 }
 
 #servicesText{
          margin: 10px;
+}
+
+#points{
+align-content: center;
+width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+#points{
+display: flex;
+width: 100%;
+justify-content: space-evenly;
+}
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -19,7 +33,9 @@
      }
 
      #points{
-          width: 980px;
+     display: flex;
+     width: 100%;
+     justify-content: space-evenly;
      }
 
 }
