@@ -11,32 +11,28 @@
   text-align: center;
 }
 
-.mainQoute h2 {
-  font-size: 49px;
-  margin: 1em auto 0 auto;
-  font-weight: 600;
-  content: open-quote;
+.mainQoute h4 {
+  font-size: 19px;
+  line-height: 40px;
 }
 
-.mainQoute p {
-  font-size: 28px;
-  margin: auto;
-  line-height: 45px;
-}
-
-blockquote h2::before {
-  content: open-quote;
+blockquote h4:before {
+  content: "\201C""\201D";
   /* text-align: center; */
   display: inline;
-  font-size: 1.5em;
+  font-size: 1.2em;
   line-height: 1em;
-  vertical-align: bottom;
-  height: 0.5em;
+  vertical-align: center;
+  height: 0.4em;
   color: rgba(36, 36, 36, 0.4);
 }
 
-p::after {
-  content: close-quote;
+blockquote h4:after {
+  content: "\2019""\2019";
+    font-size: 1.2em;
+  line-height: 1em;
+  vertical-align: center;
+  height: 0.5em;
   color: rgba(36, 36, 36, 0.4);
 }
 
@@ -51,14 +47,20 @@ p::after {
     display: flex;
     justify-content: center;
 }
-
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 1000px) {
+  /****************\\\\\\\\\ Tablet /////////****************/
+
+  #homeImg{
+    height: 66vh;
+}
+}
+
+@media only screen and (min-width: 1500px) {
   /****************\\\\\\\\\ Tablet /////////****************/
 
   #homeImg{
     height: 600px;
 }
-
 }

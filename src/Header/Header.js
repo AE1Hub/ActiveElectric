@@ -6,12 +6,9 @@ import logo_words from "../Images/logo_words.png";
 export default function Header() {
 	return (
 		<header className='header'>
-				<div className='logoContainer'>
-					<img id='logo' src={logo} alt='Company logo AE'></img>
-					<img id='companyName' src={logo_words} alt='Company Name'></img>
-				</div>
-			<div className='phoneHeader'>
-				<p id='phonePF'>Call (602)549-5052</p>
+			<div className='logoContainer'>
+				<img id='logo' src={logo} alt='Company logo AE'></img>
+				<img id='companyName' src={logo_words} alt='Company Name'></img>
 			</div>
 		</header>
 	);
