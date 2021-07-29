@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/ActiveElectric/static/css/main.0b49d2e7.chunk.css",
-    "main.js": "/ActiveElectric/static/js/main.6372e16c.chunk.js",
-    "main.js.map": "/ActiveElectric/static/js/main.6372e16c.chunk.js.map",
-    "runtime-main.js": "/ActiveElectric/static/js/runtime-main.2918e659.js",
-    "runtime-main.js.map": "/ActiveElectric/static/js/runtime-main.2918e659.js.map",
-    "static/js/2.022a731a.chunk.js": "/ActiveElectric/static/js/2.022a731a.chunk.js",
-    "static/js/2.022a731a.chunk.js.map": "/ActiveElectric/static/js/2.022a731a.chunk.js.map",
-    "index.html": "/ActiveElectric/index.html",
-    "static/css/main.0b49d2e7.chunk.css.map": "/ActiveElectric/static/css/main.0b49d2e7.chunk.css.map",
-    "static/js/2.022a731a.chunk.js.LICENSE.txt": "/ActiveElectric/static/js/2.022a731a.chunk.js.LICENSE.txt",
-    "static/media/Contact_Us.39774f70.png": "/ActiveElectric/static/media/Contact_Us.39774f70.png",
-    "static/media/Hand_Wash.e2d29c72.jpg": "/ActiveElectric/static/media/Hand_Wash.e2d29c72.jpg",
-    "static/media/Main_Top_Pic.d5ad9b99.png": "/ActiveElectric/static/media/Main_Top_Pic.d5ad9b99.png",
-    "static/media/Our_Story.e207916e.png": "/ActiveElectric/static/media/Our_Story.e207916e.png",
-    "static/media/Services_Pic.32778b2b.png": "/ActiveElectric/static/media/Services_Pic.32778b2b.png",
-    "static/media/logo.f9237c76.png": "/ActiveElectric/static/media/logo.f9237c76.png",
-    "static/media/logo_words.16612c0e.png": "/ActiveElectric/static/media/logo_words.16612c0e.png"
+    "main.css": "/static/css/main.0b49d2e7.chunk.css",
+    "main.js": "/static/js/main.54a93753.chunk.js",
+    "main.js.map": "/static/js/main.54a93753.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f9307e4c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f9307e4c.js.map",
+    "static/js/2.022a731a.chunk.js": "/static/js/2.022a731a.chunk.js",
+    "static/js/2.022a731a.chunk.js.map": "/static/js/2.022a731a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0b49d2e7.chunk.css.map": "/static/css/main.0b49d2e7.chunk.css.map",
+    "static/js/2.022a731a.chunk.js.LICENSE.txt": "/static/js/2.022a731a.chunk.js.LICENSE.txt",
+    "static/media/Contact_Us.39774f70.png": "/static/media/Contact_Us.39774f70.png",
+    "static/media/Hand_Wash.e2d29c72.jpg": "/static/media/Hand_Wash.e2d29c72.jpg",
+    "static/media/Main_Top_Pic.d5ad9b99.png": "/static/media/Main_Top_Pic.d5ad9b99.png",
+    "static/media/Our_Story.e207916e.png": "/static/media/Our_Story.e207916e.png",
+    "static/media/Services_Pic.32778b2b.png": "/static/media/Services_Pic.32778b2b.png",
+    "static/media/logo.f9237c76.png": "/static/media/logo.f9237c76.png",
+    "static/media/logo_words.16612c0e.png": "/static/media/logo_words.16612c0e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2918e659.js",
+    "static/js/runtime-main.f9307e4c.js",
     "static/js/2.022a731a.chunk.js",
     "static/css/main.0b49d2e7.chunk.css",
-    "static/js/main.6372e16c.chunk.js"
+    "static/js/main.54a93753.chunk.js"
   ]
 }
