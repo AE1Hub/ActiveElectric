@@ -1,27 +1,50 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
-import ImageButton from "../ImageButton/ImageButton";
-import Our_Story from "../Images/Our_Story.png";
-import Services from "../Images/Services.png";
-import Main_Top_Pic from "../Images/Main_Top_Pic.png";
-
-// https://mailtrap.io/blog/react-send-email/
-// review npm https://www.npmjs.com/package/emailjs
+import emailjs from "emailjs-com";
+import config from "../config.js";
 
 export default function Contact() {
+	let [alertMessage, setAlertMessage] = useState("");
+	/**
+	 * using email.js
+	 * https://www.emailjs.com/docs/examples/reactjs/
+	 */
+	const sendEmail = (e) => {
+		e.preventDefault();
+		emailjs
+			.sendForm(
+				`${config.SERVICE_KEY}`,
+				`${config.TEMPLATE_KEY}`,
+				e.target,
+				`${config.USER_KEY}`
+			)
+			.then(
+				(result) => {
+					if (result.status === 200) {
+						setAlertMessage("Email Sent");
+					}
+				},
+				(error) => {
+					if (error.status !== 200) {
+						setAlertMessage("Oops looks like we're having trouble");
+					}
+				}
+			);
+		e.target.reset();
+	};
+
 	return (
-		<main className='contact'>
-			<h1>Contact Us</h1>
+		<div className='contact'>
 			<div className='subContact'>
 				<div>
-					<h2>Email: </h2>
-					<form>
+					<h2>Tell us about your project! </h2>
+					<form onSubmit={sendEmail}>
 						<div>
 							<div>
 								<label>Name:</label>
 							</div>
 							<div>
-								<input type='text' maxLength='80'></input>
+								<input type='text' maxLength='80' name='name'></input>
 							</div>
 						</div>
 						<div>
@@ -29,7 +52,7 @@ export default function Contact() {
 								<label>Email:</label>
 							</div>
 							<div>
-								<input type='email' maxLength='80'></input>
+								<input type='email' maxLength='80' name='email'></input>
 							</div>
 						</div>
 
@@ -38,7 +61,7 @@ export default function Contact() {
 								<label>Phone Number:</label>
 							</div>
 							<div>
-								<input type='tel' maxLength='12'></input>
+								<input type='tel' maxLength='12' name='phone'></input>
 							</div>
 						</div>
 
@@ -52,47 +75,15 @@ export default function Contact() {
 									type='text'
 									wrap='soft'
 									maxLength='500'
+									name='message'
 								></textarea>
 							</div>
 						</div>
 						<button>Send Now</button>
 					</form>
-				</div>
-
-				<div className='mail'>
-					<h2>Mail: </h2>
-					<p>Active Electric Co. </p>
-					<p>
-						21419 S. 154th St. <br /> Gilbert, AZ 85298
-					</p>
-					<p>Tel 602.549.5052 </p>
-					<p>ROC 328575 </p>
+					<p>{alertMessage}</p>
 				</div>
 			</div>
-
-			<div className='navDiv'>
-				<ImageButton
-					location={"Home"}
-					navImage={Main_Top_Pic}
-					navLink={"/"}
-					descript={"Beutiful employee lounge and kitchen"}
-				/>
-
-				<ImageButton
-					location={"Our Story"}
-					navImage={Our_Story}
-					navLink={"/ourStory"}
-					descript={"Stylish warehouse lighting in locker room"}
-				/>
-				<ImageButton
-					location={"Services"}
-					navImage={Services}
-					navLink={"/services"}
-					descript={
-						"Control center with perfectly bent conduit and nicely mounted junctions"
-					}
-				/>
-			</div>
-		</main>
+		</div>
 	);
 }

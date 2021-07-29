@@ -1,14 +1,9 @@
 import React from "react";
 import "./Services.css";
-import ImageButton from "../ImageButton/ImageButton";
-import Contact_Us from "../Images/Contact_Us.png";
-import Our_Story from "../Images/Our_Story.png";
-import Main_Top_Pic from "../Images/Main_Top_Pic.png";
 
 export default function Services() {
 	return (
-		<main className='services'>
-			<h1> Services </h1>
+		<div className='services'>
 			<div className='textContainer'>
 				<p id='servicesText'>
 					We offer a wide range of services in Residential, Commercial, and
@@ -27,6 +22,8 @@ export default function Services() {
 						<li>Energy Management</li>
 						<li>Building Facility Maintenance</li>
 						<li>Repairs</li>
+					</ul>
+					<ul>
 						<li>Testing</li>
 						<li>Lighting</li>
 						<li>Unground Utilities</li>
@@ -38,28 +35,6 @@ export default function Services() {
 					</ul>
 				</div>
 			</div>
-
-			<div className='navDiv'>
-				<ImageButton
-					location={"Home"}
-					navImage={Main_Top_Pic}
-					navLink={"/"}
-					descript={"Beutiful employee lounge and kitchen"}
-				/>
-
-				<ImageButton
-					location={"Contact Us"}
-					navImage={Contact_Us}
-					navLink={"/contact"}
-					descript={"Nicely Bent Conduit"}
-				/>
-				<ImageButton
-					location={"Our Story"}
-					navImage={Our_Story}
-					navLink={"/ourStory"}
-					descript={"Stylish warehouse lighting in locker room"}
-				/>
-			</div>
-		</main>
+		</div>
 	);
 }

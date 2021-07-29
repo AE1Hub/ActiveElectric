@@ -1,15 +1,40 @@
+.home{
+  padding: 20px 0px;
+}
+
 #homeImg{
     width: 100%;
     box-shadow: 0px 3px 10px -6px;
 }
 
-#headerSaying{
-    margin: 20px 5px;
-     font-size: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
+.mainQoute {
+  text-align: center;
 }
 
+.mainQoute h4 {
+  font-size: 19px;
+  line-height: 40px;
+}
+
+blockquote h4:before {
+  content: "\201C""\201D";
+  /* text-align: center; */
+  display: inline;
+  font-size: 1.2em;
+  line-height: 1em;
+  vertical-align: center;
+  height: 0.4em;
+  color: rgba(36, 36, 36, 0.4);
+}
+
+blockquote h4:after {
+  content: "\2019""\2019";
+    font-size: 1.2em;
+  line-height: 1em;
+  vertical-align: center;
+  height: 0.5em;
+  color: rgba(36, 36, 36, 0.4);
+}
 
 @media only screen and (min-width: 650px) {
   /****************\\\\\\\\\ Tablet /////////****************/
@@ -22,14 +47,20 @@
     display: flex;
     justify-content: center;
 }
-
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 1000px) {
+  /****************\\\\\\\\\ Tablet /////////****************/
+
+  #homeImg{
+    height: 66vh;
+}
+}
+
+@media only screen and (min-width: 1500px) {
   /****************\\\\\\\\\ Tablet /////////****************/
 
   #homeImg{
     height: 600px;
 }
-
 }

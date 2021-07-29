@@ -1,15 +1,16 @@
 import React from "react";
 import "./OurStory.css";
-import ImageButton from "../ImageButton/ImageButton";
-import Contact_Us from "../Images/Contact_Us.png";
-import Services from "../Images/Services.png";
-import Main_Top_Pic from "../Images/Main_Top_Pic.png";
 
 export default function OurStory() {
 	return (
-		<main className='ourStory'>
-			<h1> Our Story </h1>
+		<div className='ourStory'>
 			<div className='story'>
+				<p id='thePromise'>
+					Our promise to you is to always deliver quality, focus on your
+					satisfaction, provide thoughtful communication, and to do what we say
+					we are going to do.
+				</p>
+
 				<p>
 					Active Electric Co. was formed in 2019 with a drive for customer
 					satisfaction and building relationships through quality workmanship
@@ -22,66 +23,20 @@ export default function OurStory() {
 					Our services include Residential, Commercial, and Industrial
 					Electrical installations and services. Our wide range of training and
 					knowledge allows us to complete many different size projects and
-					tasks. We work as partners with our clients to accomplish their needs
-					through our abilities.
+					tasks. We assist you to accomplish your needs through our abilities.
 				</p>
 				<p>
 					Contact us and lets discuss your project… With personal relationships
 					with our vendors and a complete understanding of our industry, we will
 					be able to provide very competitive pricing that will help us stand
-					out against our competitors. Competitors who often times lose site of
-					the fact in the electrical field, your safety is often in our hands.
+					out against our competitors.
+				</p>
+
+				<p id='storyPhone'>
+					Call us now at (602) 549-5052 now to schedule a qoute and discuss your
+					next project.
 				</p>
 			</div>
-
-			<div className='mission'>
-				<h2>Our Mission</h2>
-				<p>
-					The most common complaints you hear when someone talks about any
-					construction company is narrowed down to three things:
-				</p>
-
-				<p id='missionBulletA'>A) Lack of communication.</p>
-
-				<p id='missionBulletB'>B) Quality of work.</p>
-
-				<p id='missionBulletC'>
-					C) Not doing what they say they are going to do, in writing or verbal.
-				</p>
-
-				<p>
-					Our company is based on honesty and integrity. With those two words,
-					we aim to change the way people view the construction industry. We are
-					set out to bring integrity back to the electrical construction trade
-					by highlighting the three negatives listed above and focus on a
-					customer satisfaction driven initiative.
-				</p>
-			</div>
-
-			<div className='navDiv'>
-				<ImageButton
-					location={"Home"}
-					navImage={Main_Top_Pic}
-					navLink={"/"}
-					descript={"Beutiful employee lounge and kitchen"}
-				/>
-
-				<ImageButton
-					location={"Contact Us"}
-					navImage={Contact_Us}
-					navLink={"/contact"}
-					descript={"Nicely Bent Conduit"}
-				/>
-
-				<ImageButton
-					location={"Services"}
-					navImage={Services}
-					navLink={"/services"}
-					descript={
-						"Control center with perfectly bent conduit and nicely mounted junctions"
-					}
-				/>
-			</div>
-		</main>
+		</div>
 	);
 }

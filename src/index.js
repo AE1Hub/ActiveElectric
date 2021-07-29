@@ -2,18 +2,22 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App/App.js";
-import { BrowserRouter } from "react-router-dom";
 
 /**
- * To deploy to Vercel use bash $ vercel and follow the prompts
+ * ***** Vercel Deploy *****
+ * To deploy to Vercel use bash $ vercel or $ vercel --prod for prod and follow the prompts
  * https://vercel.com/docs/platform/deployments
+ * 
+ * ***** For GH pages deploy *****
+ * $ npm run build
+ * $ npm deploy
+ * https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
  */
+
 
 ReactDOM.render(
 	<React.StrictMode>
-		<BrowserRouter>
 			<App />
-		</BrowserRouter>
 	</React.StrictMode>,
 	document.getElementById("root")
 );

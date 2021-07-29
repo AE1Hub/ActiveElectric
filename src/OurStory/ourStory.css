@@ -1,35 +1,31 @@
-.mission, .story{
-     margin: 10px;
+.story{
+             padding: 10px 0px 30px 0px;
 }
 
 .ourStory h1, .ourStory h2{
      text-align: center;
 }
 
-#missionBulletA,
-#missionBulletB,
-#missionBulletC{
-     padding-left: 10px;
+#thePromise{
+text-align: center;
+font-size: 25px;
+padding-bottom: 40px;
+}  
+
+#storyPhone{
+     font-size: 28px;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1000px) {   
 
-.story p, .mission p{
-
+.story p{
     width: 980px;
 }
 
-.story, .mission{
+.story{
 display: flex;
 flex-direction: column;
 align-items: center;
-padding-left: 20px;
-}
-
-#missionBulletA,
-#missionBulletB,
-#missionBulletC{
-     padding-left: 25px;
 }
 
 }
