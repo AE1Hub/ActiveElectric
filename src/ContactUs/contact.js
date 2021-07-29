@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Contact.css";
+import "./contact.css";
 import emailjs from "emailjs-com";
 import config from "../config.js";
 

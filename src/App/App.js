@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import Contact from "../ContactUs/Contact";
+import Contact from "../ContactUs/contact";
 import Home from "../Home/Home";
-import OurStory from "../OurStory/OurStory";
-import Services from "../Services/Services";
+import OurStory from "../OurStory/ourStory";
+import Services from "../Services/services";
 import Footer from "../Footer/Footer";
 import Contact_Us from "../Images/Contact_Us.png";
 import Our_Story from "../Images/Our_Story.png";

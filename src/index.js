@@ -11,6 +11,7 @@ import App from "./App/App.js";
  * ***** For GH pages deploy *****
  * $ npm run build
  * $ npm deploy
+ * Will need to login to GH and update custom domain with correct domain on each deploy
  * https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
  */
 
