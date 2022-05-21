@@ -26,7 +26,7 @@ export default function Contact() {
 				},
 				(error) => {
 					if (error.status !== 200) {
-						setAlertMessage("Oops looks like we're having trouble");
+						setAlertMessage("Oops looks like we're having trouble. Please email us at info@activelectric.com");
 					}
 				}
 			);
